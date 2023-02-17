@@ -1,0 +1,97 @@
+<!-- 합쳐지고 최소화된 최신 CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="../js/index.js"></script>
+</head>
+<style>th,td {padding:10px;}</style></style>
+<body>
+    <div>
+        <h3>자기소개</h3>
+        - 이름 : 체인저<br>
+        - 사는 곳 : 역삼동 자취<br>
+        - 철학하는 개발자, 버스킹하는 운동선수<br>
+        <br>
+        <hr width=”길이” color=”색상코드” noshade />
+    </div>
+    <div>
+        <h3>인생 영화 BEST5</h3>
+        <table 
+            align="center"
+            border="1"
+            width="90%"
+            bordercolor="black">
+            <th width="50"><font size="2">순위</font></th>
+            <th width="100"><font size="2">제목</font></th>
+            <th width="100"><font size="2">포스터</font></th>
+            <th width="100"><font size="2">줄거리</font></th>
+            <th width="70"><font size="2">바로가기</font></th>
+            <tr>
+                <td><font size="3">1</font></td>
+                <td><font size="3">인셉션</font></td>
+                <td align="center"><font size="2"><img src="../images/인셉션.jpeg", width="150"></font></td>
+                <td><font size="2">꿈 속의 꿈에 접속해 기억을 심는 '인셉션'을 통해 목적을 달성하려는 사람들. 하지만 꿈 속의 꿈 단계가 깊어지다 빠져나올 수 없는 '림보'에 갇히게 될 수도 있다!</font></td>
+                <td><font size="2"><a href="https://namu.wiki/w/%EC%9D%B8%EC%85%89%EC%85%98">여기를 클릭</a></font></td>
+            </tr>
+                <td><font size="3">2</font></td>
+                <td><font size="3">메멘토</font></td>
+                <td align="center"><font size="2"><img src="../images/메멘토.jpeg", width="150"></font></td>
+                <td><font size="2">매일 아침 기억이 사라지는 남자. 그의 주변을 둘러싼 의문의 인물들로부터 과거의 기억이 조금씩 되살아난다. 그런데.. 그녀가 했던 수상한 행동들의 정체는 뭘까..?</font></td>
+                <td><font size="2"><a href="https://namu.wiki/w/%EB%A9%94%EB%A9%98%ED%86%A0">여기를 클릭</a></font></td>
+            </tr>
+                <td><font size="3">3</font></td>
+                <td><font size="3">아이덴티티</font></td>
+                <td align="center"><font size="2"><img src="../images/아이덴티티.jpeg", width="150"></font></td>
+                <td><font size="2">외딴 곳에 위치한 호텔에 모인 투숙객들. 그곳에서 의문의 살인 사건이 일어난다.</font></td>
+                <td><font size="2"><a href="https://namu.wiki/w/%EC%95%84%EC%9D%B4%EB%8D%B4%ED%8B%B0%ED%8B%B0(%EC%98%81%ED%99%94)">여기를 클릭</a></font></td>
+            </tr>
+                <td><font size="3">4</font></td>
+                <td><font size="3">시라노 연애조작단</font></td>
+                <td align="center"><font size="2"><img src="../images/시라노연애조작단.jpeg", width="150"></font></td>
+                <td><font size="2">우연을 창조해 사랑을 이뤄주는 사기꾼들(?) 어떤 사랑이든 이뤄주는 그들에게 수락하기 애매한 의뢰가 들어온다.</font></td>
+                <td><font size="2"><a href="https://namu.wiki/w/%EC%8B%9C%EB%9D%BC%EB%85%B8%3B%EC%97%B0%EC%95%A0%20%EC%A1%B0%EC%9E%91%EB%8B%A8?from=%EC%8B%9C%EB%9D%BC%EB%85%B8%20%EC%97%B0%EC%95%A0%EC%A1%B0%EC%9E%91%EB%8B%A8">여기를 클릭</a></font></td>
+            </tr>
+                <td><font size="3">5</font></td>
+                <td><font size="3">셔터아일랜드</font></td>
+                <td align="center"><font size="2"><img src="../images/셔터아일랜드.jpeg", width="150"></font></td>
+                <td><font size="2">정신질환자들을</font></td>
+                <td><font size="2"><a href="https://namu.wiki/w/%EC%85%94%ED%84%B0%20%EC%95%84%EC%9D%BC%EB%9E%9C%EB%93%9C">여기를 클릭</a></font></td>
+            </tr>
+        </table>
+        <hr width=”길이” color=”색상코드” noshade />
+    <div>
+                    <h3 class="pb-2">방명록</h3>
+                    <div class="d-flex align-items-center">
+                        <label for="nickname">
+                            이름:&nbsp;
+                            <input type="text" id="namenamename">
+                        </label>
+                    </div>
+                    <div>
+                            <br>
+                        <h5><b></b><p>본인 취향 영화</p></b></h5>
+                        <label><input type="checkbox" id="name1" name="movie" value="movie1">인셉션</label>
+                        <label><input type="checkbox" id="name2" name="movie" value="movie2">메멘토</label>
+                        <label><input type="checkbox" id="name3" name="movie" value="movie3">아이덴티티</label>
+                        <label><input type="checkbox" id="name4" name="movie" value="movie4">시라노 연애조작단</label>
+                        <label><input type="checkbox" id="name5" name="movie" value="movie5">셔터아일랜드</label>
+                        <div class="btn-toolbar gap-2 py-2">
+                            <button type="button" onclick='submitWithAlert()'>
+                                등록
+                            </button>
+                            <button type="reset">
+                                취소
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <br>
+        <hr width=”길이” color=”색상코드” noshade />
+    </div>
+</body>
+</html>
